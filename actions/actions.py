@@ -12,6 +12,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction
+from rasa_sdk.events import SlotSet
 import requests
 
 
@@ -40,7 +41,7 @@ class FormContact(FormAction):
 
         dispatcher.utter_message(template="utter_form_thankyou")
 
-        return []
+        return [SlotSet("phone-number", None),SlotSet("email", None)]
 
 
 class ActionBye(Action):

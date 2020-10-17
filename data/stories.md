@@ -10,7 +10,6 @@
   - form_contact
   - form{"name":"form_contact"}
   - form{"name":null} 
-  - action_restart
 * goodbye
   - action_bye
 
@@ -66,6 +65,5 @@
     - slot{"phone-number":"(+25) 4710712167"}
     - form{"name":null}
     - slot{"requested_slot":null}
-    - action_restart
 * goodbye
     - action_bye
