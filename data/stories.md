@@ -1,7 +1,7 @@
 ## happy path
 * greet
   - action_greet
-*positive
+* positive
   - utter_positive  
 * chitchat_pricing
   - utter_chitchat_pricing
