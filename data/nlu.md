@@ -74,6 +74,7 @@
 - I am great
 - good and you
 - cool
+- how are you
 
 ## intent:chitchat_bot
 - are you smart
