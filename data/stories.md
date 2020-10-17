@@ -66,5 +66,6 @@
     - slot{"phone-number":"(+25) 4710712167"}
     - form{"name":null}
     - slot{"requested_slot":null}
+    - action_restart
 * goodbye
     - action_bye
