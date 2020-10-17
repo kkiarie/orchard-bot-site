@@ -5,6 +5,7 @@
 - good morning
 - good evening
 - hey there
+- afternoon
 
 ## intent:goodbye
 - bye
@@ -83,7 +84,6 @@
 - are a sily bot
 - i want to know more about smart assistant
 
-
 ## intent:bot_challenge
 - i need a new kiatu
 - i need a new car
@@ -92,4 +92,3 @@
 - a mosquito is cooking
 - i need to go home
 - iam  late for work
- 
