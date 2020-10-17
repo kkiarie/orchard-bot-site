@@ -24,10 +24,12 @@ slots:
     type: unfeaturized
   phone-number:
     type: unfeaturized
+  requested_slot:
+    type: unfeaturized
 responses:
   utter_chitchat_pricing:
-  - text: We offers Flexible plans,Based on your business needs we have created packages
-      to help you onboard the intelligent assistant.
+  - text: So about pricing, we offers Flexible plans,Based on your business needs
+      we have created packages to help you onboard the intelligent assistant.
   utter_positive:
   - text: 👍 Great!
   - text: 👍 Awesome!
@@ -37,8 +39,8 @@ responses:
       \ or service \n\U0001F449Always availabe 24/7 \n\U0001F449Smartly converse with\
       \ customers"
   utter_chitchat_bot:
-  - text: Im a smart personal assistant created by Creative Orchards. I`m currently
-      floating in the clouds ☁️☁️
+  - text: Glad you aske. Im a smart personal assistant created by Creative Orchards.
+      I`m currently floating in the clouds ☁️☁️
   utter_slot_values:
   - text: "You have provided the following details:\nEmails:{email}\nPhone Number:{phone-number}"
   utter_contact_summary:
@@ -52,10 +54,6 @@ responses:
   - text: Please provide a phone number that we can reach out back to you ?
   utter_form_thankyou:
   - text: Thank you, we shall be getting back to you soon! 👍
-  # utter_ask_affirmation:
-  # - text: What did you mean ?
-  # utter_ask_rephrase:
-  # - text: Please rephrase again!
   utter_default:
   - text: Sorry, what did you mean
 actions:
@@ -64,7 +62,5 @@ actions:
 - utter_ask_email
 - utter_ask_message
 - utter_ask_phone-number
-# - utter_ask_affirmation
-# - utter_ask_rephrase
 forms:
 - form_contact
