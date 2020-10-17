@@ -52,19 +52,19 @@ responses:
   - text: Please provide a phone number that we can reach out back to you ?
   utter_form_thankyou:
   - text: Thank you, we shall be getting back to you soon! 👍
-  utter_ask_affirmation:
-  - text: What did you mean ?
-  utter_ask_rephrase:
-  - text: Please rephrase again!
-  # utter_default:
-  # - text: Sorry, what did you mean
+  # utter_ask_affirmation:
+  # - text: What did you mean ?
+  # utter_ask_rephrase:
+  # - text: Please rephrase again!
+  utter_default:
+  - text: Sorry, what did you mean
 actions:
 - action_greet
 - action_bye
 - utter_ask_email
 - utter_ask_message
 - utter_ask_phone-number
-- utter_ask_affirmation
-- utter_ask_rephrase
+# - utter_ask_affirmation
+# - utter_ask_rephrase
 forms:
 - form_contact
