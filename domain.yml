@@ -1,0 +1,60 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- chitchat_pricing
+- chitchat_bot
+- chitchat_smart_personal_explainer
+- positive
+- request_contact
+entities:
+- phone-number
+- email
+- message
+slots:
+  message:
+    type: unfeaturized
+  email:
+    type: unfeaturized
+  phone-number:
+    type: unfeaturized
+responses:
+  utter_chitchat_pricing:
+  - text: We offers Flexible plans,Based on your business needs we have created packages
+      to help you onboard the intelligent assistant.
+  utter_positive:
+  - text: 👍 Great!
+  - text: 👍 Awesome!
+  utter_chitchat_smart_personal_explainer:
+  - text: "The Smart Assistant will focus on: \n\U0001F449Answering customer queries\
+      \ \n\U0001F449Lead generation \n\U0001F449Provide information about product\
+      \ or service \n\U0001F449Always availabe 24/7 \n\U0001F449Smartly converse with\
+      \ customers"
+  utter_chitchat_bot:
+  - text: Im a smart personal assistant created by Creative Orchards. I`m currently
+      floating in the clouds ☁️☁️
+  utter_slot_values:
+  - text: "You have provided the following details:\nEmails:{email}\nPhone Number:{phone-number}"
+  utter_contact_summary:
+  - text: We shall ask for your phone number and email address ,this will be used
+      to get back to you to give feedback on your query
+  utter_ask_message:
+  - text: Please enter your message or query ?     
+  utter_ask_email:
+  - text: Please provide an email address that we can contact you?
+  utter_ask_phone-number:
+  - text: Please provide a phone number that we can reach out back to you ?
+  utter_form_thankyou:
+  - text: Thank you, we shall be getting back to you soon! 👍
+actions:
+- action_greet
+- action_bye
+- utter_ask_email
+- utter_ask_message
+- utter_ask_phone-number
+forms:
+- form_contact
