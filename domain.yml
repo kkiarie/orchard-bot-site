@@ -11,14 +11,16 @@ intents:
 - chitchat_smart_personal_explainer
 - positive
 - request_contact
+- bot_challenge
+- out_of_scope
 entities:
 - phone-number
 - email
 - message
 slots:
-  message:
-    type: unfeaturized
   email:
+    type: unfeaturized
+  message:
     type: unfeaturized
   phone-number:
     type: unfeaturized
@@ -43,18 +45,26 @@ responses:
   - text: We shall ask for your phone number and email address ,this will be used
       to get back to you to give feedback on your query
   utter_ask_message:
-  - text: Please enter your message or query ?     
+  - text: Please enter your message or query ?
   utter_ask_email:
   - text: Please provide an email address that we can contact you?
   utter_ask_phone-number:
   - text: Please provide a phone number that we can reach out back to you ?
   utter_form_thankyou:
   - text: Thank you, we shall be getting back to you soon! 👍
+  utter_ask_affirmation:
+  - text: What did you mean ?
+  utter_ask_rephrase:
+  - text: Please rephrase again!
+  # utter_default:
+  # - text: Sorry, what did you mean
 actions:
 - action_greet
 - action_bye
 - utter_ask_email
 - utter_ask_message
 - utter_ask_phone-number
+- utter_ask_affirmation
+- utter_ask_rephrase
 forms:
 - form_contact

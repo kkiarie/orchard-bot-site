@@ -82,3 +82,14 @@
 - are a bot
 - are a sily bot
 - i want to know more about smart assistant
+
+
+## intent:bot_challenge
+- i need a new kiatu
+- i need a new car
+- zombie
+- a cow drinks milk
+- a mosquito is cooking
+- i need to go home
+- iam  late for work
+ 
