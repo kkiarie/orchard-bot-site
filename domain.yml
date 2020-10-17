@@ -39,7 +39,7 @@ responses:
       \ or service \n\U0001F449Always availabe 24/7 \n\U0001F449Smartly converse with\
       \ customers"
   utter_chitchat_bot:
-  - text: Glad you aske. Im a smart personal assistant created by Creative Orchards.
+  - text: Glad you asked. Im a smart personal assistant created by Creative Orchards.
       I`m currently floating in the clouds ☁️☁️
   utter_slot_values:
   - text: "You have provided the following details:\nEmails:{email}\nPhone Number:{phone-number}"
