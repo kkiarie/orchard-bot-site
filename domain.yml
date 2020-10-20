@@ -32,8 +32,9 @@ slots:
     type: unfeaturized
 responses:
   utter_chitchat_pricing:
-  - text: So about pricing, we offers Flexible plans,Based on your business needs
-      we have created packages to help you onboard the intelligent assistant.
+  - text: "So about pricing, we offers Flexible plans,Based on your business needs\
+      \ we have created packages to help you onboard the intelligent assistant. -\t\
+      buttons:\n\t\tpayload: /request_contact\n      title: Contact"
   utter_positive:
   - text: 👍 Great!
   - text: 👍 Awesome!
@@ -62,7 +63,7 @@ responses:
   - text: Glad you asked.Let me show you. How many days does it take for the moon
       to go around the earth ?. Hint its less than 30 days, take a guess
   utter_smart_one:
-  - text: "👏"
+  - text: 👏
   utter_smart_one_correction:
   - text: I always Google from time to time, it takes 30 days for the moon to go around
       the earth.
