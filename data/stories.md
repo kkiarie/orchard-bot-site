@@ -72,3 +72,30 @@
     - slot{"email":"kkiarie4@gmail.com"}
     - slot{"phone-number":"(+25) 4715295492"}
     - action_bye
+
+## New Story
+
+* request_contact
+    - utter_contact_summary
+    - form_contact
+    - form{"name":"form_contact"}
+    - slot{"requested_slot":"email"}
+* out_of_scope{"email":"it@mail.com"}
+    - slot{"email":"it@mail.com"}
+    - slot{"email":"it@mail.com"}
+    - form_contact
+    - slot{"email":"it@mail.com"}
+    - slot{"requested_slot":"phone-number"}
+* out_of_scope{"phone-number":"(+25) 4710010000"}
+    - slot{"phone-number":"(+25) 4710010000"}
+    - slot{"phone-number":"(+25) 4710010000"}
+    - form_contact
+    - slot{"phone-number":"(+25) 4710010000"}
+    - slot{"phone-number":null}
+    - slot{"email":null}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+* goodbye
+    - slot{"email":"it@mail.com"}
+    - slot{"phone-number":"(+25) 4710010000"}
+    - action_bye
