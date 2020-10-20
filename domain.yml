@@ -69,10 +69,8 @@ responses:
   - text: I always Google from time to time, it takes 30 days for the moon to go around
       the earth.
   utter_default:
-  - text: "Sorry, i didnot understand"
-  - text: "Sorry,would you please repeat"
-   
-
+  - text: Sorry, i didnot understand!
+  - text: Sorry,would you please repeat!
 actions:
 - action_greet
 - action_bye
@@ -80,7 +78,6 @@ actions:
 - utter_ask_number
 - utter_ask_message
 - utter_ask_phone-number
-
 forms:
 - form_contact
 - form_smart
