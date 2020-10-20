@@ -45,6 +45,7 @@
 - what will the smart assistant do for my business
 - what is a smart assistant
 - Capabilities of smart assistant
+- what can you do
 
 ## intent:request_contact
 - I need an assistant for my business
