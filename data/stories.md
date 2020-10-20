@@ -17,9 +17,6 @@
 * out_of_scope
     - action_default_fallback
 
-## bot question
-* chitchat_bot
-  - utter_chitchat_bot
 
 ## path of being smart
 
