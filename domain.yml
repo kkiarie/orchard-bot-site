@@ -33,8 +33,10 @@ slots:
 responses:
   utter_chitchat_pricing:
   - text: "So about pricing, we offers Flexible plans,Based on your business needs\
-      \ we have created packages to help you onboard the intelligent assistant. -\t\
-      buttons:\n\t\tpayload: /request_contact\n      title: Contact"
+      \ we have created packages to help you onboard the intelligent assistant."
+    buttons:  
+      - payload:  /request_contact
+        title:  Contact    
   utter_positive:
   - text: 👍 Great!
   - text: 👍 Awesome!
