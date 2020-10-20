@@ -20,6 +20,7 @@ pipeline:
   dimensions:
   - email
   - phone-number
+  - number
   timeout: 3
 policies:
 - name: MemoizationPolicy

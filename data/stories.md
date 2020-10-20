@@ -67,3 +67,14 @@
     - slot{"requested_slot":null}
 * goodbye
     - action_bye
+
+
+## path of being smart
+
+* greet
+  - action_greet
+* chitchat_bot
+  - form_smart
+  - form{"name":"form_smart"}
+  - form{"name":null}
+  - utter_chitchat_pricing     

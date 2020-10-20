@@ -17,7 +17,12 @@ entities:
 - phone-number
 - email
 - message
+- number
 slots:
+  smart_value:
+    type: unfeaturized
+  number:
+    type: unfeaturized
   email:
     type: unfeaturized
   message:
@@ -39,8 +44,7 @@ responses:
       \ or service \n\U0001F449Always availabe 24/7 \n\U0001F449Smartly converse with\
       \ customers"
   utter_chitchat_bot:
-  - text: Glad you asked. Im a smart personal assistant created by Creative Orchards.
-      I`m currently floating in the clouds ☁️☁️
+  - text: "Glad you asked.Let me show you. How many days does it take for the moon to go around the sun ?. Hint its less than 30"
   utter_slot_values:
   - text: "You have provided the following details:\nEmails:{email}\nPhone Number:{phone-number}"
   utter_contact_summary:
@@ -56,11 +60,21 @@ responses:
   - text: Thank you, we shall be getting back to you soon! 👍
   utter_default:
   - text: Sorry, what did you mean
+  utter_ask_number:
+  - text: "Glad you asked.Let me show you. How many days does it take for the moon to go around the earth ?. Hint its less than 30 days, take a guess"  
+  utter_smart_value:
+  - text: "NUmber of days {number}"  
+  utter_smart_one:
+  - text: "👏"  
+  utter_smart_one_correction:
+  - text: "I always Google from time to time, it takes 30 days for the moon to go around the earth."  
 actions:
 - action_greet
 - action_bye
 - utter_ask_email
+- utter_ask_number
 - utter_ask_message
 - utter_ask_phone-number
 forms:
 - form_contact
+- form_smart

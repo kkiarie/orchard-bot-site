@@ -82,6 +82,7 @@
 - are you dum
 - are you dum bot
 - are a bot
+- how smart are you
 - are a sily bot
 - i want to know more about smart assistant
 
@@ -93,3 +94,5 @@
 - a mosquito is cooking
 - i need to go home
 - iam  late for work
+
+

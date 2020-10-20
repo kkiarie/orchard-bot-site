@@ -15,6 +15,30 @@ from rasa_sdk.forms import FormAction
 from rasa_sdk.events import SlotSet
 import requests
 
+class FormSmart(FormAction):
+
+    def name(self) -> Text:
+        return "form_smart"
+
+    @staticmethod
+    def required_slots(tracker: Tracker) -> List[Text]:
+        return ["number"]        
+
+    def submit(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict]:
+
+
+        if tracker.get_slot("number")==30:
+            dispatcher.utter_message(template="utter_smart_one")
+        else:
+            dispatcher.utter_message(template="utter_smart_one_correction")       
+
+        return [SlotSet("number", None)]
+
 
 class FormContact(FormAction):
 
