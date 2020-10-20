@@ -14,7 +14,7 @@
   - action_bye
 
 ## bot challlenge
-* bot_challenge
+* out_of_scope
     - action_default_fallback
 
 ## bot question

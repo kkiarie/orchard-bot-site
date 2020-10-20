@@ -75,6 +75,7 @@
 - good and you
 - cool
 - how are you
+- nice
 
 ## intent:chitchat_bot
 - are you smart
@@ -85,7 +86,7 @@
 - are a sily bot
 - i want to know more about smart assistant
 
-## intent:bot_challenge
+## intent:out_of_scope
 - i need a new kiatu
 - i need a new car
 - zombie
@@ -93,3 +94,15 @@
 - a mosquito is cooking
 - i need to go home
 - iam  late for work
+- what is the square root of 5
+- I want to know the weather
+- what is the meaning of life.
+- Fridge Isn't Running
+- my tv isn't working
+- I want a pizza
+- my washing machine isn't working
+- what year is it
+- order a pizza
+- I want to order a pizza
+- what is the weather today
+- what is the weather

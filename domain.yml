@@ -11,7 +11,6 @@ intents:
 - chitchat_smart_personal_explainer
 - positive
 - request_contact
-- bot_challenge
 - out_of_scope
 entities:
 - phone-number
@@ -19,17 +18,17 @@ entities:
 - message
 - number
 slots:
-  smart_value:
-    type: unfeaturized
-  number:
-    type: unfeaturized
   email:
     type: unfeaturized
   message:
     type: unfeaturized
+  number:
+    type: unfeaturized
   phone-number:
     type: unfeaturized
   requested_slot:
+    type: unfeaturized
+  smart_value:
     type: unfeaturized
 responses:
   utter_chitchat_pricing:
@@ -44,7 +43,8 @@ responses:
       \ or service \n\U0001F449Always availabe 24/7 \n\U0001F449Smartly converse with\
       \ customers"
   utter_chitchat_bot:
-  - text: "Glad you asked.Let me show you. How many days does it take for the moon to go around the sun ?. Hint its less than 30"
+  - text: Glad you asked.Let me show you. How many days does it take for the moon
+      to go around the sun ?. Hint its less than 30
   utter_slot_values:
   - text: "You have provided the following details:\nEmails:{email}\nPhone Number:{phone-number}"
   utter_contact_summary:
@@ -58,16 +58,21 @@ responses:
   - text: Please provide a phone number that we can reach out back to you ?
   utter_form_thankyou:
   - text: Thank you, we shall be getting back to you soon! 👍
-  utter_default:
-  - text: Sorry, what did you mean
   utter_ask_number:
-  - text: "Glad you asked.Let me show you. How many days does it take for the moon to go around the earth ?. Hint its less than 30 days, take a guess"  
+  - text: Glad you asked.Let me show you. How many days does it take for the moon
+      to go around the earth ?. Hint its less than 30 days, take a guess
   utter_smart_value:
-  - text: "NUmber of days {number}"  
+  - text: NUmber of days {number}
   utter_smart_one:
-  - text: "👏"  
+  - text: 👏
   utter_smart_one_correction:
-  - text: "I always Google from time to time, it takes 30 days for the moon to go around the earth."  
+  - text: I always Google from time to time, it takes 30 days for the moon to go around
+      the earth.
+  utter_default:
+  - text: "Sorry, i didnot understand"
+  - text: "Sorry,would you please repeat"
+   
+
 actions:
 - action_greet
 - action_bye
@@ -75,6 +80,7 @@ actions:
 - utter_ask_number
 - utter_ask_message
 - utter_ask_phone-number
+
 forms:
 - form_contact
 - form_smart
