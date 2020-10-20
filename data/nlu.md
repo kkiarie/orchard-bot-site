@@ -6,6 +6,7 @@
 - good evening
 - hey there
 - afternoon
+- Hey what's up
 
 ## intent:goodbye
 - bye
@@ -43,6 +44,7 @@
 - benefit of having a smart assistant
 - what will the smart assistant do for my business
 - what is a smart assistant
+- Capabilities of smart assistant
 
 ## intent:request_contact
 - I need an assistant for my business
@@ -65,6 +67,7 @@
 - how can i reach out
 - how do i get started
 - how do i get started on smart assistant
+- I'm looking for a job
 
 ## intent:positive
 - great
@@ -85,6 +88,7 @@
 - are a bot
 - are a sily bot
 - i want to know more about smart assistant
+- how smart are you ?
 
 ## intent:out_of_scope
 - i need a new kiatu

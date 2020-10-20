@@ -71,6 +71,9 @@ responses:
   utter_default:
   - text: Sorry, i didnot understand!
   - text: Sorry,would you please repeat!
+  utter_smart_assistant_process:
+  - text: Lets see!\nThe Smart Assistant developemt process , reachout to us. We shall
+      get your business specific requirements.
 actions:
 - action_greet
 - action_bye
