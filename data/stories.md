@@ -68,7 +68,6 @@
 * goodbye
     - action_bye
 
-
 ## path of being smart
 
 * greet
@@ -77,4 +76,45 @@
   - form_smart
   - form{"name":"form_smart"}
   - form{"name":null}
-  - utter_chitchat_pricing     
+  - utter_chitchat_pricing
+
+## New Story
+
+* greet
+    - action_greet
+* positive
+    - utter_positive
+* request_contact
+    - utter_contact_summary
+    - form_contact
+    - form{"name":"form_contact"}
+    - slot{"requested_slot":"email"}
+* chitchat_pricing{"email":"test@mail.com"}
+    - slot{"email":"test@mail.com"}
+    - slot{"email":"test@mail.com"}
+    - form_contact
+    - slot{"email":"test@mail.com"}
+    - slot{"requested_slot":"phone-number"}
+* chitchat_bot{"phone-number":"(+25) 4729064835"}
+    - slot{"phone-number":"(+25) 4729064835"}
+    - slot{"phone-number":"(+25) 4729064835"}
+    - form_contact
+    - slot{"phone-number":"(+25) 4729064835"}
+    - slot{"phone-number":null}
+    - slot{"email":null}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+* chitchat_bot
+    - slot{"email":"test@mail.com"}
+    - slot{"phone-number":"(+25) 4729064835"}
+    - form_smart
+    - form{"name":"form_smart"}
+    - slot{"requested_slot":"number"}
+* chitchat_bot{"number":14}
+    - slot{"number":14}
+    - form_smart
+    - slot{"number":14}
+    - slot{"number":null}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+    - utter_chitchat_pricing
