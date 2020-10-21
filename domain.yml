@@ -32,11 +32,11 @@ slots:
     type: unfeaturized
 responses:
   utter_chitchat_pricing:
-  - text: "So about pricing, we offers Flexible plans,Based on your business needs\
-      \ we have created packages to help you onboard the intelligent assistant."
-    buttons:  
-      - payload:  /request_contact
-        title:  Contact    
+  - buttons:
+    - payload: /request_contact
+      title: Contact
+    text: So about pricing, we offers Flexible plans,Based on your business needs
+      we have created packages to help you onboard the intelligent assistant.
   utter_positive:
   - text: 👍 Great!
   - text: 👍 Awesome!
@@ -75,6 +75,9 @@ responses:
   utter_smart_assistant_process:
   - text: Lets see!\nThe Smart Assistant developemt process , reachout to us. We shall
       get your business specific requirements.
+  utter_application_response:
+  - text: Well we have currently made the personal assistant work on Web, Facebook
+      Messenger, Telegram and still hopping to add WhatsApp
 actions:
 - action_greet
 - action_bye

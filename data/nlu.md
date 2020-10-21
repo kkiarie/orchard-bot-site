@@ -93,6 +93,7 @@
 - are a sily bot
 - i want to know more about smart assistant
 - how smart are you ?
+- How smart is the PA
 
 ## intent:out_of_scope
 - i need a new kiatu
@@ -114,3 +115,5 @@
 - I want to order a pizza
 - what is the weather today
 - what is the weather
+- Can the PA work on messanger
+- Can the PA work on web
