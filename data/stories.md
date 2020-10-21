@@ -134,3 +134,8 @@
     - slot{"email":null}
     - form{"name":null}
     - slot{"requested_slot":null}
+
+## New Story
+
+* intergration_of_smart_assistant
+    - utter_application_response

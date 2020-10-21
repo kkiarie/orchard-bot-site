@@ -49,6 +49,7 @@
 - tell me more about smart assistant
 - Customer queries cannbe answered by the Personal Assistant ??
 - How can i intergrate the PA with my business
+- what are your feature
 
 ## intent:request_contact
 - I need an assistant for my business
@@ -123,3 +124,4 @@
 - Can i get PA to work on whatsapp
 - What social platfroms does the PA work on
 - What spcial platforms can the PA work with
+- can i connect my smart personal assistant with facebook
