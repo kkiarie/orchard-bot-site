@@ -78,8 +78,11 @@ responses:
   - text: Lets see!\nThe Smart Assistant developemt process , reachout to us. We shall
       get your business specific requirements.
   utter_application_response:
-  - text: Well we have currently made the personal assistant work on Web, Facebook
-      Messenger, Telegram and still hopping to add WhatsApp
+  - text: "Well we have currently made the personal assistant work on Web, Facebook
+      Messenger, Telegram and still hopping to add WhatsApp. Also we can be able intergrate with Payment Options, ERP system"
+    buttons:  
+      - payload:  /contact
+        title:  Contact  
 actions:
 - action_greet
 - action_bye
