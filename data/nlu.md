@@ -116,11 +116,10 @@
 - what is the weather today
 - what is the weather
 
-
-
-## intent:application_of_smart_assistant
-
-
 ## intent:intergration_of_smart_assistant
 - Can the PA work on messanger
 - Can the PA work on web
+- What social platform does the PA work with
+- Can i get PA to work on whatsapp
+- What social platfroms does the PA work on
+- What spcial platforms can the PA work with
