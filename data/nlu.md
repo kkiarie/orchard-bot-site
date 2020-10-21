@@ -47,6 +47,8 @@
 - Capabilities of smart assistant
 - what can you do
 - tell me more about smart assistant
+- Customer queries cannbe answered by the Personal Assistant ??
+- How can i intergrate the PA with my business
 
 ## intent:request_contact
 - I need an assistant for my business

@@ -99,3 +99,38 @@
     - slot{"email":"it@mail.com"}
     - slot{"phone-number":"(+25) 4710010000"}
     - action_bye
+
+## New Story
+
+* greet
+    - action_greet
+* chitchat_bot
+    - form_smart
+    - form{"name":"form_smart"}
+    - slot{"requested_slot":"number"}
+* out_of_scope{"number":14}
+    - slot{"number":14}
+    - form_smart
+    - slot{"number":14}
+    - slot{"number":null}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+    - utter_chitchat_pricing
+* request_contact
+    - utter_contact_summary
+    - form_contact
+    - form{"name":"form_contact"}
+    - slot{"requested_slot":"email"}
+* out_of_scope{"email":"kelvin.kiarie@mayfair.co.ke"}
+    - slot{"email":"kelvin.kiarie@mayfair.co.ke"}
+    - form_contact
+    - slot{"email":"kelvin.kiarie@mayfair.co.ke"}
+    - slot{"requested_slot":"phone-number"}
+* out_of_scope{"phone-number":"(+25) 4715295492"}
+    - slot{"phone-number":"(+25) 4715295492"}
+    - form_contact
+    - slot{"phone-number":"(+25) 4715295492"}
+    - slot{"phone-number":null}
+    - slot{"email":null}
+    - form{"name":null}
+    - slot{"requested_slot":null}
