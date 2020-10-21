@@ -46,7 +46,7 @@ responses:
   - text: "The Smart Assistant will focus on: \n\U0001F449Answering customer queries\
       \ \n\U0001F449Lead generation \n\U0001F449Provide information about product\
       \ or service \n\U0001F449Always availabe 24/7 \n\U0001F449Smartly converse with\
-      \ customers"
+      \ customers\n\U0001F449 Intergration to third Party systems; i.e we can able to interconnect with your favorite social media plartforms\nPlease conatct us or reachout to get more information"
   utter_chitchat_bot:
   - text: Glad you asked.Let me show you. How many days does it take for the moon
       to go around the sun ?. Hint its less than 30
