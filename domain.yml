@@ -12,6 +12,8 @@ intents:
 - positive
 - request_contact
 - out_of_scope
+- intergration_of_smart_assistant
+
 entities:
 - phone-number
 - email
