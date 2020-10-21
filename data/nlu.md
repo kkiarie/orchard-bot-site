@@ -50,6 +50,7 @@
 - Customer queries cannbe answered by the Personal Assistant ??
 - How can i intergrate the PA with my business
 - what are your feature
+- Is the personal assistant intelligent to handle complex queries?
 
 ## intent:request_contact
 - I need an assistant for my business
@@ -73,6 +74,7 @@
 - how do i get started
 - how do i get started on smart assistant
 - I'm looking for a job
+- What's are the process needed to get started
 
 ## intent:positive
 - great
@@ -125,3 +127,6 @@
 - What social platfroms does the PA work on
 - What spcial platforms can the PA work with
 - can i connect my smart personal assistant with facebook
+
+## intent:chitchat_identity
+- Launching a personal assistant
