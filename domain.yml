@@ -68,8 +68,8 @@ responses:
   - text: Glad you asked.Let me show you. How many days does it take for the moon
       to go around the earth ?. Hint its less than 30 days, take a guess
   utter_smart_one:
-  - text: 👏 Bravo!! You got it right! As my creators have taught me that,To attain
-      knowledge, add things everyday. I everday strive to learn  and be smarter 🤓
+  - text: "👏 Bravo!! You got it right! As my creators have taught me that,To attain
+      knowledge, add things everyday. I strive everday to learn and to be smarter 🤓"
   utter_smart_one_correction:
   - text: I always Google from time to time, it takes 30 days for the moon to go around
       the earth.
