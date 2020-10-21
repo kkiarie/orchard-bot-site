@@ -115,5 +115,12 @@
 - I want to order a pizza
 - what is the weather today
 - what is the weather
+
+
+
+## intent:application_of_smart_assistant
+
+
+## intent:intergration_of_smart_assistant
 - Can the PA work on messanger
 - Can the PA work on web
