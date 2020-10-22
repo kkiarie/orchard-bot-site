@@ -59,7 +59,7 @@ responses:
   utter_ask_message:
   - text: Please enter your message or query ?
   utter_ask_email:
-  - text: Please provide an email address that we can contact you?
+  - text: Please provide a valid email address that we can contact you?
   utter_ask_phone-number:
   - text: Please provide a phone number that we can reach out back to you ?
   utter_form_thankyou:
