@@ -90,10 +90,12 @@ responses:
       Messenger, Telegram and still hopping to add WhatsApp. Also we can be able intergrate
       with Payment Options, ERP system
   utter_time_for_development:
-  - text: Depending on the type of project and the detailing of the project it will
+  - text: "Depending on the type of project and the detailing of the project it will
       take roughly 3 to 5 weeks of initial setup and after continue analyzing and
       improving the personal assistant. But us you know  it requires a team work with
-      your business :-)
+      your business 😉"
+  utter_billing_platforms:
+  - text: "The personal assistant can be integrated with different billing platforms such as Paypal,  Mobile money, Visa & Master Card. Let us know what works for your business.Yes, depending on your business needs and the needs of the market we can integrate into different payment platforms such us Mobile money, Visa & Master card and Paypal. Let us know what works in your market."      
 actions:
 - action_greet
 - action_bye
