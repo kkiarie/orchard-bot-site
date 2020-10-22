@@ -7,6 +7,8 @@
 - hey there
 - afternoon
 - Hey what's up
+- how are you
+- hey howare
 
 ## intent:goodbye
 - bye
@@ -38,6 +40,7 @@
 - can i be able to buy smart assistant
 - can i able to purchase smart assistant
 - what is the setup cost of a smart assistant
+- how do buy one
 
 ## intent:chitchat_smart_personal_explainer
 - How will the smart assistant work for my business
@@ -51,6 +54,7 @@
 - How can i intergrate the PA with my business
 - what are your feature
 - Are you a smart assistant
+- Well before that how does it work
 
 ## intent:request_contact
 - I need an assistant for my business
@@ -74,6 +78,8 @@
 - how do i get started
 - how do i get started on smart assistant
 - I'm looking for a job
+- how can i get smart assistant for my business
+- how to get started
 
 ## intent:positive
 - great
@@ -83,9 +89,9 @@
 - I am great
 - good and you
 - cool
-- how are you
 - nice
 - ok
+- how are you ?
 
 ## intent:chitchat_bot
 - are you smart
@@ -97,6 +103,8 @@
 - i want to know more about smart assistant
 - how smart are you ?
 - How smart is the PA
+- Hey how smart are you
+- how smart aare you
 
 ## intent:out_of_scope
 - i need a new kiatu
@@ -140,3 +148,7 @@
 - Setup cycle?
 - how long does it take to develop the smart assistant
 - whats the development time of the smart assistant
+- how long would it take to integrate the smart assistant with my business
+
+## intent:request_booking
+- show me a demo
