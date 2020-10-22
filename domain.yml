@@ -13,6 +13,8 @@ intents:
 - request_contact
 - out_of_scope
 - intergration_of_smart_assistant
+- billing_integration
+- development_cycle
 entities:
 - phone-number
 - email
@@ -55,7 +57,7 @@ responses:
   - text: "You have provided the following details:\nEmails:{email}\nPhone Number:{phone-number}"
   utter_contact_summary:
   - text: We shall ask for your phone number and email address ,this will be used
-      to get back to you to give feedback on your query
+      to get back to you to give feedback on your query.
   utter_ask_message:
   - text: Please enter your message or query ?
   utter_ask_email:

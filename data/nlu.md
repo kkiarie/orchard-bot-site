@@ -125,3 +125,14 @@
 - What social platfroms does the PA work on
 - What spcial platforms can the PA work with
 - can i connect my smart personal assistant with facebook
+
+
+## intent:billing_integration
+- Can I integrate with M-PESA
+- I would like to integrate with Mobile Money
+- What mobile payment platforms are available
+
+## intent:development_cycle
+- how long does it take to install a PA
+- How long does it take to set up the personal assistant
+- Setup cycle?
