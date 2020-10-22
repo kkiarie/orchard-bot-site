@@ -139,3 +139,4 @@
 - How long does it take to set up the personal assistant
 - Setup cycle?
 - how long does it take to develop the smart assistant
+- whats the development time of the smart assistant

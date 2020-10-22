@@ -139,3 +139,10 @@
 
 * intergration_of_smart_assistant
     - utter_application_response
+
+## New Story
+
+* development_cycle
+    - utter_time_for_development
+* billing_integration
+    - utter_billing_platforms
