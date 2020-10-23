@@ -55,6 +55,7 @@
 - what are your feature
 - Are you a smart assistant
 - Well before that how does it work
+- would like to setup a personal assistant
 
 ## intent:request_contact
 - I need an assistant for my business
